@@ -5,12 +5,12 @@
 #include <sys/ioctl.h>
 #include <net/if.h>
 
-#define BOOT_REQUEST 0x01;
-#define BOOT_RESPONSE 0x02;
-#define ETHERNET 0x01;
-const int ETHERNET_ADDR_LEN = 0x06;
+#define BOOT_REQUEST 0x01
+#define BOOT_RESPONSE 0x02
+#define ETHERNET 0x01
+#define ETHERNET_ADDR_LEN 0x06
 
-#define OPTIONS_MSG_TYPE 0x53;
+#define OPTIONS_MSG_TYPE 0x53
 
 typedef enum {
     DHCP_DISCOVER = 0x1,

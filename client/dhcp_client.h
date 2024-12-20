@@ -13,13 +13,13 @@
 #define OPTIONS_MSG_TYPE 0x53
 
 typedef enum {
-    DHCP_DISCOVER = 0x1,
-    DHCP_OFFER = 0x2,
-    DHCP_REQUEST = 0x3,
-    DHCP_DECLINE = 0x4,
-    DHCP_ACK = 0x5,
-    DHCP_NAK = 0x6,
-    DHCP_RELEASE = 0x7
+    DHCP_DISCOVER = 1,
+    DHCP_OFFER = 2,
+    DHCP_REQUEST = 3,
+    DHCP_DECLINE = 4,
+    DHCP_ACK = 5,
+    DHCP_NAK = 6,
+    DHCP_RELEASE = 7
 } msg_type;
 
 struct dhcp_packet

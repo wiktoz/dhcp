@@ -7,7 +7,7 @@
 
 #include "dhcp_client.h"
 
-#define DHCP_SERVER_PORT 3000
+#define DHCP_SERVER_PORT 67
 #define BUFFER_SIZE 1024
 
 const uint8_t DHCP_MAGIC_COOKIE[4] = {0x63, 0x82, 0x53, 0x63};
